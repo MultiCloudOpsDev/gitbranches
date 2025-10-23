@@ -1,7 +1,7 @@
 import boto3
 
 # Create EC2 client
-ec2 = boto3.client('ec2', region_name='ap-south-1')  # Mumbai region
+ec2 = boto3.client('ec2', region_name='us-east-1')  # Mumbai region
 
 # Describe all EC2 instances
 response = ec2.describe_instances()
