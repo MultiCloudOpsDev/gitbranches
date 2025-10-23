@@ -14,4 +14,4 @@ for reservation in response['Reservations']:
         print("Type:", instance['InstanceType'])
         print("Private IP:", instance.get('PrivateIpAddress', 'N/A'))
         print("Public IP:", instance.get('PublicIpAddress', 'N/A'))
-        print("-" * 10)
+        print("-" * 20)
